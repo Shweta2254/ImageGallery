@@ -92,13 +92,17 @@ h1{
     margin: 1em;
     margin-bottom: 2em;
     padding-bottom: 0;
+    height: 15em;
+    width: auto;
+    overflow: hidden;
 }
 
    /* hover effect on images  */
    .img:hover{
        
+       
    }
    hr{
-    height: 34vw;
-    background-color: rgb(45, 94, 94);
+    height: 1vw;
+    background-color:  rgb(39, 69, 85);
    }
