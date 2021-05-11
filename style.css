@@ -87,9 +87,8 @@ h1{
 
   /* horizontal scrollbar image  */
 .img{
-    border-top: 4px solid black;
-    border-left: 4px solid black;
-    border-right: 4px solid black;
+    
+    box-shadow: 10px 15px 15px rgb(17, 2, 2);
     margin: 1em;
     margin-bottom: 2em;
     padding-bottom: 0;
