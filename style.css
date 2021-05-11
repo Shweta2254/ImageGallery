@@ -93,3 +93,12 @@ h1{
     margin-bottom: 2em;
     padding-bottom: 0;
 }
+
+   /* hover effect on images  */
+   .img:hover{
+       
+   }
+   hr{
+    height: 34vw;
+    background-color: rgb(45, 94, 94);
+   }
