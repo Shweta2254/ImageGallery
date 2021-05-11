@@ -106,3 +106,19 @@ h1{
     height: 1vw;
     background-color:  rgb(39, 69, 85);
    }
+
+      /* footer  */
+
+   .footer{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 5vw;
+       color: white;
+       background-color: rgb(39, 69, 85);
+   }
+
+   .aboveFooter{
+       height: 20px;
+       background-color: rgb(38, 61, 73);
+   }
