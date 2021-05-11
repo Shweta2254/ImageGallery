@@ -99,6 +99,8 @@ h1{
 
    /* hover effect on images  */
    .img:hover{
+       opacity: 0.4;
+       transition: 0.5s ease;
        
        
    }
