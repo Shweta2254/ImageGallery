@@ -1,3 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +20,8 @@
     top: 0;
     cursor: pointer;
     background: radial-gradient( rgb(80, 133, 160),rgb(34,34,34));
+    z-index: 1;
+    font-family: 'Lobster', cursive;
 }
    
    /* navigation bar items */
@@ -26,8 +37,7 @@
      
 }
 .list li a:hover{
-    font-weight: bolder;
-    font-size: 3vw;
+    color: black;
    
 }
 .list li a{
@@ -69,6 +79,7 @@ section{
   /* main heading  */
 h1{
     font-size: 5vw;
+    font-family: 'Lobster', cursive;
 }
 
 .text {
@@ -119,7 +130,71 @@ h1{
        background-color: rgb(39, 69, 85);
    }
 
-   .aboveFooter{
-       height: 20px;
-       background-color: rgb(38, 61, 73);
+  
+
+   /* contact form  */
+
+   .signuph{
+    background-color: rgb(38, 61, 73);
+    color: white;
+    
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    
+        margin-left: 53px;
+        display: inline-flex;
+        font-size: xxx-large;
+        text-transform: uppercase;
+    margin-top: revert;
+
+    
+
    }
+
+   .contact{
+       background-color: rgb(38, 61, 73);
+       color: white;
+       display: flex;
+       text-align: center;
+       justify-content: center;
+      
+
+   }
+   .form{
+       margin-top: 3vw;
+       font-family: 'Lobster', cursive;
+       margin-bottom: 3vw;
+       font-size: 1.5vw;
+   }
+
+   #fName{
+       margin: 1vw;
+       
+      
+
+   }
+   #lName{
+    margin: 1vw;
+
+   }
+
+   #email{
+    margin: 1vw;
+
+   }
+   #password{
+    margin: 1vw;
+
+   }
+
+   .btn {
+    font-size: 1.5vw;
+    margin: 2vw;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
