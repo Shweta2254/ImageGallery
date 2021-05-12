@@ -192,9 +192,13 @@ h1{
     font-size: 1.5vw;
     margin: 2vw;
     cursor: pointer;
+    padding: 2px ;
 }
 
 .btn:hover{
     background-color: black;
     color: white;
+    padding: 4px;
+    border 2px solid white;
+    border-radius: 8px;
 }
