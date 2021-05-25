@@ -54,3 +54,61 @@ function myFunction7() {
         x.style.display = "none";
     }
   }
+
+  // ************************************************************************************
+  function myFunction8() {
+    var x = document.getElementById("im8");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+  }
+  function myFunction9() {
+    var x = document.getElementById("im9");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+  }
+  function myFunction10() {
+    var x = document.getElementById("im10");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+  }
+  function myFunction11() {
+    var x = document.getElementById("im11");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+  }
+  function myFunction12() {
+    var x = document.getElementById("im12");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+  }
+  function myFunction13() {
+    var x = document.getElementById("im13");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+  }
+  function myFunction14() {
+    var x = document.getElementById("im14");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+  }
