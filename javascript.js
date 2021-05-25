@@ -117,5 +117,5 @@ function myFunction7() {
   navbars = document.querySelector('.navbars')
 
   hamsburger.addEventListener('click',()=>{
-    navbar.classList.toggle('navbars')
+    navbars.classList.toggle('navbars')
   })
