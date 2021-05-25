@@ -105,7 +105,7 @@ h1{
 }
 
 .text {
-    color: rgb(77, 69, 58);
+    color: rgb(8, 5, 0);
     text-align: center;
     
 }
@@ -234,6 +234,14 @@ h1{
 }
 /* dots */
 .new{
-    color: rgb(80, 70, 70);
+    color: rgb(22, 13, 13);
     opacity: 0.4;
+}
+
+.para{
+    font-family: 'Lobster', cursive;
+    color: rgb(51, 45, 45);
+    font-size: 2rem;
+
+    
 }
