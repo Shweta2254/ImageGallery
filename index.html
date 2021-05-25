@@ -12,66 +12,106 @@
 <body>
     <nav class="navbar">
         <ul class="list">
-            
+
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            
-            
+
+
             <li><a href="#products" id="product" class="product">Products</a></li>
             <div id="dropdn" class="dropdn">
-           
-            <li><a href="#">python</a></li><hr>
-            <li><a href="#">python</a></li><hr>
-            <li><a href="#">python</a></li><hr>
-            <li><a href="#">python</a></li>
-          
-        </div>
+
+                <li><a href="#">python</a></li>
+                <hr>
+                <li><a href="#">python</a></li>
+                <hr>
+                <li><a href="#">python</a></li>
+                <hr>
+                <li><a href="#">python</a></li>
+
+            </div>
             <li><a href="#signup">Signup</a></li>
 
         </ul>
-        
-        
+
+
         <div class="rightNav">
             <div class="logo"><img src="../img/logo.jpg" alt="logo"></div>
         </div>
     </nav>
     <main>
-        
+
 
         <section class="background">
             <div class="text">
-               <h1 id="home">
+                <h1 id="home">
 
-                   Welcome to Image Gallery
-               </h1>
+                    Welcome to Image Gallery
+                </h1>
             </div>
             <div class="scrollbar">
                 <div class="itembox" id="about">
-                    <div class="img" id="demo"><img src="../img/1.jpg" alt="image" id="ima">
+                    <div class="img"><img src="../img/1.jpg" alt="image" id="im1">
                         <h3>Flower for garden</h3>
                         <hr>
                         <p>Buy now at $45.00</p>
                         <p>(IN STOCK)</p>
                     </div>
-                   <span> <button id="btn1" onclick="myFunction()"><strong>+</strong></button></span>
-                   
-                    <div class="img"><img src="../img/2.jpg" alt="image"></div>
-                    <div class="img"><img src="../img/3.jpg" alt="image"></div>
-                    <div class="img"><img src="../img/4.jpg" alt="image"></div>
-                    <div class="img"><img src="../img/5.jpg" alt="image"></div>
-                    <div class="img"><img src="../img/8.jpg" alt="image"></div>
-                    <div class="img"><img src="../img/9.jpg" alt="image"></div>
-                   
+                    <span> <button class="btn1" onclick="myFunction1()"><strong>+</strong></button></span>
+                    <div class="img"><img src="../img/4.jpg" alt="image" id="im2">
+                        <h3>Flower for garden</h3>
+                        <hr>
+                        <p>Buy now at $45.00</p>
+                        <p>(IN STOCK)</p>
+                    </div>
+                    <span> <button class="btn1" onclick="myFunction2()"><strong>+</strong></button></span>
+                    <div class="img"><img src="../img/2.jpg" alt="image" id="im3">
+                        <h3>Flower for garden</h3>
+                        <hr>
+                        <p>Buy now at $45.00</p>
+                        <p>(IN STOCK)</p>
+                    </div>
+                    <span> <button class="btn1" onclick="myFunction3()"><strong>+</strong></button></span>
+                    <div class="img"><img src="../img/3.jpg" alt="image" id="im4">
+                        <h3>Flower for garden</h3>
+                        <hr>
+                        <p>Buy now at $45.00</p>
+                        <p>(IN STOCK)</p>
+                    </div>
+                    <span> <button class="btn1" onclick="myFunction4()"><strong>+</strong></button></span>
+                    <div class="img"><img src="../img/5.jpg" alt="image" id="im5">
+                        <h3>Flower for garden</h3>
+                        <hr>
+                        <p>Buy now at $45.00</p>
+                        <p>(IN STOCK)</p>
+                    </div>
+                    <span> <button class="btn1" onclick="myFunction5()"><strong>+</strong></button></span>
+                    <div class="img"><img src="../img/8.jpg" alt="image" id="im6">
+                        <h3>Flower for garden</h3>
+                        <hr>
+                        <p>Buy now at $45.00</p>
+                        <p>(IN STOCK)</p>
+                    </div>
+                    <span> <button class="btn1" onclick="myFunction6()"><strong>+</strong></button></span>
+                    <div class="img"><img src="../img/9.jpg" alt="image" id="im7">
+                        <h3>Flower for garden</h3>
+                        <hr>
+                        <p>Buy now at $45.00</p>
+                        <p>(IN STOCK)</p>
+                    </div>
+                    <span> <button class="btn1" onclick="myFunction7()"><strong>+</strong></button></span>
+
+
                 </div>
             </div>
             <section class="textArea">
-            <div class="text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, rerum corporis tenetur repellendus ullam fuga atque, laborum vero! Eius, nostrum.</p>
-            </div>
-        </section>
-        
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, rerum corporis tenetur
+                        repellendus ullam fuga atque, laborum vero! Eius, nostrum.</p>
+                </div>
+            </section>
+
             <div class="scrollbar">
-                <div class="itembox" >
+                <div class="itembox">
                     <div class="img"><img src="../img/11.jpg" alt="image"></div>
                     <div class="img"><img src="../img/12.jpg" alt="image"></div>
                     <div class="img"><img src="../img/13.jpg" alt="image"></div>
@@ -79,37 +119,38 @@
                     <div class="img"><img src="../img/18.jpg" alt="image"></div>
                     <div class="img"><img src="../img/16.jpg" alt="image"></div>
                     <div class="img"><img src="../img/17.jpg" alt="image"></div>
-                   
+
                 </div>
             </div>
-            
-        </main>
-        </section>
-        
-        
-        <section class="contact">
-            <h2 class="signuph" id="signup">sign up</h2><br>
-        </section>
-        <section class="contact">
-            <form action="POST" class="form">
-                <label for="fName">First Name:</label>
-                <input type="text" id="fName" placeholder="Enter Your First Name"><br>
-                <label for="lName">Last Name:</label>
-                <input type="text" id="lName" placeholder="Enter Your Last Name"><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="Enter Your Email"><br>
-                <label for="password">Password:</label>
-                <input type="password" id="password" placeholder="Enter Your Password"><br>
-                <button class="btn">Submit</button>
-                <button class="btn" type="reset">Reset</button>
-                
-            </form>
 
-        </section>
-        <footer class="footer">
-            Copyright &#169 WEB TEAM 2021. All rights reserved
-        </footer>
-        
-   <script src="javascript.js"></script>
-    </body>
-    </html>
+    </main>
+    </section>
+
+
+    <section class="contact">
+        <h2 class="signuph" id="signup">sign up</h2><br>
+    </section>
+    <section class="contact">
+        <form action="POST" class="form">
+            <label for="fName">First Name:</label>
+            <input type="text" id="fName" placeholder="Enter Your First Name"><br>
+            <label for="lName">Last Name:</label>
+            <input type="text" id="lName" placeholder="Enter Your Last Name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter Your Email"><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter Your Password"><br>
+            <button class="btn">Submit</button>
+            <button class="btn" type="reset">Reset</button>
+
+        </form>
+
+    </section>
+    <footer class="footer">
+        Copyright &#169 WEB TEAM 2021. All rights reserved
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

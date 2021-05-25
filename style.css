@@ -223,7 +223,7 @@ h1{
     border-radius: 8px;
 }
 
-#btn1{
+.btn1{
     position: relative;
     top: 8rem;
     left: -9rem;
