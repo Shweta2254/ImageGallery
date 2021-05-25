@@ -112,3 +112,10 @@ function myFunction7() {
         x.style.display = "none";
     }
   }
+
+  hamsburger = document.querySelector('.hamsburger')
+  navbars = document.querySelector('.navbars')
+
+  hamsburger.addEventListener('click',()=>{
+    navbar.classList.toggle('navbars')
+  })

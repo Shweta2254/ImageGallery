@@ -242,3 +242,44 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
 }
+
+
+/* hamsburger */
+.hamsburger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 5px;
+    margin: 3px 3px;
+}
+/* 560 */
+/* responsiveness */
+@media only screen and (max-width:600px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .list{
+        flex-direction: column;
+    }
+    .logo img{
+        visibility: hidden;
+    }
+    .hamsburger{
+        display: block;
+    }
+    .navbars{
+        height: 45px;
+
+    }
+    .navbars a{
+        opacity: 0;
+    }
+    
+}
