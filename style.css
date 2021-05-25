@@ -37,11 +37,11 @@
 }
 
   
-  /* #product:hover, .dropdn {
+  #product:hover .dropdn {
     display: block;
     
     color: rgb(139, 135, 130);
-  } */
+  }
 
 
 
@@ -105,7 +105,7 @@ h1{
 }
 
 .text {
-    color: rgb(8, 5, 0);
+    color: rgb(22, 17, 9);
     text-align: center;
     
 }
@@ -234,14 +234,52 @@ h1{
 }
 /* dots */
 .new{
-    color: rgb(22, 13, 13);
+    color: rgb(56, 43, 43);
     opacity: 0.4;
 }
-
+/* paragraph */
 .para{
-    font-family: 'Lobster', cursive;
-    color: rgb(51, 45, 45);
-    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
 
+
+/* hamsburger */
+.hamsburger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 5px;
+    margin: 3px 3px;
+}
+/* 560 */
+/* responsiveness */
+@media only screen and (max-width:600px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .list{
+        flex-direction: column;
+    }
+    .logo img{
+        visibility: hidden;
+    }
+    .hamsburger{
+        display: block;
+    }
+    .navbars{
+        height: 45px;
+
+    }
+    .navbars a{
+        opacity: 0;
+    }
     
 }
