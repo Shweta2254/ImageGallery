@@ -14,16 +14,19 @@
         <ul class="list">
             
             <li><a href="#home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <ul>
+            <li><a href="#about">About</a></li>
+            
+            
+            <li><a href="#products" id="product" class="product">Products</a></li>
+            <div id="dropdn" class="dropdn">
+           
+            <li><a href="#">python</a></li><hr>
+            <li><a href="#">python</a></li><hr>
+            <li><a href="#">python</a></li><hr>
             <li><a href="#">python</a></li>
-            <li><a href="#">python</a></li>
-            <li><a href="#">python</a></li>
-            <li><a href="#">python</a></li>
-            </ul>
-
-            <li><a href="#products">Products</a></li>
-            <li><a href="#Signup">Signup</a></li>
+          
+        </div>
+            <li><a href="#signup">Signup</a></li>
 
         </ul>
         
@@ -37,14 +40,21 @@
 
         <section class="background">
             <div class="text">
-               <h1>
+               <h1 id="home">
 
                    Welcome to Image Gallery
                </h1>
             </div>
             <div class="scrollbar">
-                <div class="itembox">
-                    <div class="img"><img src="../img/1.jpg" alt="image"></div>
+                <div class="itembox" id="about">
+                    <div class="img" id="demo"><img src="../img/1.jpg" alt="image" id="ima">
+                        <h3>Flower for garden</h3>
+                        <hr>
+                        <p>Buy now at $45.00</p>
+                        <p>(IN STOCK)</p>
+                    </div>
+                   <span> <button id="btn1" onclick="myFunction()"><strong>+</strong></button></span>
+                   
                     <div class="img"><img src="../img/2.jpg" alt="image"></div>
                     <div class="img"><img src="../img/3.jpg" alt="image"></div>
                     <div class="img"><img src="../img/4.jpg" alt="image"></div>
@@ -54,15 +64,14 @@
                    
                 </div>
             </div>
-            <hr>
             <section class="textArea">
             <div class="text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, rerum corporis tenetur repellendus ullam fuga atque, laborum vero! Eius, nostrum.</p>
             </div>
         </section>
-        <hr>
+        
             <div class="scrollbar">
-                <div class="itembox">
+                <div class="itembox" >
                     <div class="img"><img src="../img/11.jpg" alt="image"></div>
                     <div class="img"><img src="../img/12.jpg" alt="image"></div>
                     <div class="img"><img src="../img/13.jpg" alt="image"></div>
@@ -79,7 +88,7 @@
         
         
         <section class="contact">
-            <h2 class="signuph">sign up</h2><br>
+            <h2 class="signuph" id="signup">sign up</h2><br>
         </section>
         <section class="contact">
             <form action="POST" class="form">
@@ -101,6 +110,6 @@
             Copyright &#169 WEB TEAM 2021. All rights reserved
         </footer>
         
-   
+   <script src="javascript.js"></script>
     </body>
     </html>
